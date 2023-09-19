@@ -1,129 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saif Ali Shaik - Portfolio</title>
-    <style>
-        /* Reset some default styles for consistency */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Basic styling */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        /* Custom styling for the portfolio section */
-        .portfolio {
-            margin-top: 20px;
-        }
-
-        .project {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .project h3 {
-            margin: 0;
-        }
-
-        .project p {
-            margin-top: 10px;
-        }
-
-        /* Skill section */
-        .skills {
-            margin-top: 20px;
-        }
-
-        .skills ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .skills li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Saif Ali's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Saif Ali Shaik</h1>
-        <p>Web Developer | Programmer</p>
+      <nav>
+        <a href="index.html" class="logo">SaifAliS</a>
+        <div class="navLinks">
+          <ul>
+            <li><a href="">About me</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio website. I'm a passionate web developer with expertise in HTML, CSS, JavaScript, and more. I love creating web applications and solving real-world problems through coding.</p>
-    </div>
-    <div class="container portfolio">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <h3>Project 1 - Personal Website</h3>
-            <p>A personal website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+    <section class="row">
+      <div class="left">
+        <div class="content">
+        <h1>Hi, I am <br />Saif Ali Shaik</h1>
+        <p>Flutter Developer</p>
         </div>
-        <div class="project">
-            <h3>Project 2 - Online Store</h3>
-            <p>An e-commerce website with user authentication and payment processing, created with React and Node.js.</p>
+      </div class="right">
+      <div class="box">
+        <div class="ellipse">
+          <img class="profile" src="profile.png" alt="Avatar" />
         </div>
-        <div class="project">
-            <h3>Project 3 - Blog App</h3>
-            <p>A full-stack blog application developed with MongoDB, Express.js, React, and Node.js.</p>
-        </div>
-    </div>
-    <div class="container skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>Git</li>
-            <li>Responsive Web Design</li>
-        </ul>
-    </div>
-    <footer>
-        &copy; 2023 Saif Ali Shaik
-    </footer>
-</body>
+      </div>
+    </section>
+  </body>
 </html>
